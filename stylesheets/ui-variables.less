@@ -1,14 +1,14 @@
 // Colors
 
-@text-color: #444;
+@text-color: #222;
 @text-color-subtle: #999;
 @text-color-highlight: #000;
-@text-color-selected: #fff;
+@text-color-selected: inherit;
 
-@text-color-info: #5293d8;
-@text-color-success: #529b2f;
-@text-color-warning: #ff982d;
-@text-color-error: #c00;
+@text-color-info: #1BA1E2;
+@text-color-success: #119900;
+@text-color-warning: #F09609;
+@text-color-error: #F51400;
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -16,17 +16,17 @@
 @text-color-modified: @text-color-warning;
 @text-color-removed: @text-color-error;
 
-@background-color-info: #0098ff;
-@background-color-success: #17ca65;
-@background-color-warning: #ff4800;
-@background-color-error: #c00;
+@background-color-info: #1BA1E2;
+@background-color-success: #119900;
+@background-color-warning: #F09609;
+@background-color-error: #F51400;
 @background-color-highlight: rgba(0, 0, 0, .1);
-@background-color-selected: #6aa5e9;
+@background-color-selected: #1BA1E2;
 
 @app-background-color: #ccc;
 
-@base-background-color: #f4f4f4;
-@base-border-color: #9f9f9f;
+@base-background-color: #fff;
+@base-border-color: #ddd;
 
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: @base-border-color;
@@ -34,7 +34,7 @@
 @input-background-color: #fff;
 @input-border-color: fadeout(@base-border-color, 10%);
 
-@tool-panel-background-color: @base-background-color;
+@tool-panel-background-color: #f3f3f3;
 @tool-panel-border-color: @base-border-color;
 
 @inset-panel-background-color: #fff;
@@ -46,18 +46,18 @@
 @overlay-background-color: #ececec;
 @overlay-border-color: @base-border-color;
 
-@button-background-color: @base-background-color;
+@button-background-color: #858585;
 @button-background-color-hover: lighten(@button-background-color, 5%);
 @button-background-color-selected: #888;
 @button-border-color: rgba(0, 0, 0, 0.15);
 
-@tab-bar-background-color: #d8d8d8;
+@tab-bar-background-color: #f3f3f3;
 @tab-bar-border-color: #ddd;
-@tab-background-color: #e8e8e8;
-@tab-background-color-active: #f0f0f0;
+@tab-background-color: #f3f3f3;
+@tab-background-color-active: #fff;
 @tab-border-color: lighten(@base-border-color, 10%);
 
-@tree-view-background-color: #eee;
+@tree-view-background-color: @tool-panel-background-color;
 @tree-view-border-color: @base-border-color;
 
 @ui-site-color-1: @background-color-success; // green
@@ -66,21 +66,19 @@
 @ui-site-color-4: #db2ff4; // purple
 @ui-site-color-5: #f5e11d; // yellow
 
-
 // Sizes
 
-@font-size: 11px;
+@font-size: 14px;
 @disclosure-arrow-size: 12px;
 
-@component-padding: 10px;
-@component-icon-padding: 5px;
+@component-padding: 8px;
+@component-icon-padding: 2px;
 @component-icon-size: 16px;
-@component-line-height: 25px;
-@component-border-radius: 2px;
+@component-line-height: 32px;
+@component-border-radius: 0px;
 
-@tab-height: 26px;
-
+@tab-height: 32px;
 
 // Other
 
-@font-family: 'Lucida Grande', 'Segoe UI', sans-serif;
+@font-family: 'Segoe UI', 'Lucida Grande', sans-serif;

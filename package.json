@@ -1,9 +1,9 @@
 {
-  "name": "atom-light-ui",
+  "name": "atom-clide-ui",
   "theme": "ui",
   "version": "0.25.0",
-  "description": "Default light theme for interface components",
-  "repository": "https://github.com/atom/atom-light-ui.git",
+  "description": "An atom ui theme inspired by clide",
+  "repository": "https://github.com/martinring/atom-clide-ui.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
